@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.susanchiu.smartsats",
+    "sha256_cert_fingerprints": [
+      "88:F7:95:BC:77:58:5F:BF:50:A3:39:93:C9:03:F8:03:DE:12:73:3E:7F:6F:4C:FA:AD:C1:61:D4:59:C9:0F:9D"
+    ]
+  }
+}]
