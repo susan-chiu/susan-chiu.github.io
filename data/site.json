@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 5,
  "projects": [
   {
    "id": "field-audit",
@@ -317,20 +317,21 @@
   {
    "id": "cap",
    "section": "personal",
-   "title": "CAP Tutor",
+   "title": "Brave Study",
    "subtitle": "Junior-high exam practice",
-   "status": "In development",
-   "tone": "plan",
-   "desc": "Practice for Taiwan's junior-high CAP exam across all five subjects, aligned to the current curriculum and organized by semester.",
+   "status": "Launching",
+   "tone": "build",
+   "desc": "Five quick questions a day and boss battles for review, covering all five subjects of Taiwan's junior-high CAP exam. Every wrong answer gets a step-by-step tutor.",
    "features": [
     "A step-by-step tutor for every wrong answer",
-    "Duolingo-style daily streaks",
-    "Free for top-3 students in their school"
+    "Daily streaks with streak-saver cards and boss battles",
+    "Parent accounts that show practice days and weak units",
+    "Free full access for top-3 students in their school"
    ],
    "tags": [
     "EdTech",
-    "App Store",
-    "Google Play"
+    "iOS + Android",
+    "Subscriptions"
    ],
    "cover": {
     "art": "cap"
@@ -342,26 +343,70 @@
    "link": "",
    "linkLabel": "",
    "zh": {
-    "title": "錯題小老師",
+    "title": "勇敢學吧",
     "subtitle": "國中會考練習",
-    "status": "開發中",
-    "desc": "依現行課綱整理國、英、數、自、社五科會考練習，按學期分冊複習。",
+    "status": "上架中",
+    "desc": "每天 5 題、打魔王複習，涵蓋國中會考五科。每一道錯題都有小老師一步步帶你想懂。",
     "features": [
-     "每道錯題都有逐步解說的小老師",
-     "像 Duolingo 一樣的每日連續挑戰",
-     "全校前三名可免費使用"
+     "每道錯題都有逐步講解的小老師",
+     "每日連勝、保護卡與打魔王複習",
+     "家長帳號可看練習天數與待加強單元",
+     "全校前三名可免費使用完整版"
     ],
     "problem": "學生練了很多考古題，卻很少得到錯在哪裡的解說。",
     "role": "一人完成：產品定義、設計與開發。"
+   }
+  },
+  {
+   "id": "mixia",
+   "section": "personal",
+   "title": "Mixia",
+   "subtitle": "Story puzzle game",
+   "status": "Launching",
+   "tone": "build",
+   "desc": "Ten drawers, ten stories. A story-driven puzzle game for teens that runs from quiet mystery to real horror, where some choices end the story for good.",
+   "features": [
+    "Ten stories, from mystery to horror",
+    "A hint for every puzzle, plus chapter select",
+    "Multiple endings to unlock and collect",
+    "Plays fully offline: no account, no ads, no tracking"
+   ],
+   "tags": [
+    "Puzzle game",
+    "Offline",
+    "iOS + Android"
+   ],
+   "cover": {
+    "art": "mixia"
+   },
+   "problem": "Puzzle games for teens rarely give the puzzles a story worth following.",
+   "role": "Solo: story, puzzle design, development and release.",
+   "approach": "",
+   "results": "",
+   "link": "",
+   "linkLabel": "",
+   "zh": {
+    "title": "謎匣 Mixia",
+    "subtitle": "劇情解謎遊戲",
+    "status": "上架中",
+    "desc": "十個抽屜，十個故事。給青少年的劇情解謎遊戲，從懸疑一路走到恐怖，有些選擇會讓故事就此結束。",
+    "features": [
+     "十個故事，從懸疑到恐怖",
+     "每一題都有提示，也能選章節",
+     "多重結局，可以解鎖收集",
+     "完全離線：不用帳號、沒有廣告和追蹤"
+    ],
+    "problem": "給青少年的解謎遊戲，很少有值得跟著走下去的故事。",
+    "role": "一人完成：劇本、謎題設計、開發與上架。"
    }
   }
  ],
  "items": {},
  "profile": {
-  "intro": "I'm a smart-manufacturing project manager in Kaohsiung, building inspection, audit and automation systems with production and IT teams at a flexible-PCB maker. Outside work, I design and ship my own apps for divers, new investors and students.",
+  "intro": "I'm a smart-manufacturing project manager in Kaohsiung, building inspection, audit and automation systems with production and IT teams at a flexible-PCB maker. Outside work, I design and ship my own apps for divers, new investors, students and puzzle fans.",
   "email": "yskyskygirl19830613@gmail.com",
   "linkedin": "",
   "github": "",
-  "intro_zh": "我是高雄的智慧工廠專案課長，在軟板製造廠與生產及 IT 團隊一起建置檢驗、稽核與自動化系統。工作之外，我自己設計並開發給潛水員、投資新手和學生使用的 App。"
+  "intro_zh": "我是高雄的智慧工廠專案課長，在軟板製造廠與生產及 IT 團隊一起建置檢驗、稽核與自動化系統。工作之外，我自己設計並開發給潛水員、投資新手、學生和解謎玩家使用的 App。"
  }
 }

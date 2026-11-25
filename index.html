@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Susan Chiu Portfolio</title>
-<meta name="description" content="Smart-manufacturing project manager in Kaohsiung, Taiwan. Inspection, audit and automation systems, plus personal apps for divers, new investors and students.">
+<meta name="description" content="Smart-manufacturing project manager in Kaohsiung, Taiwan. Inspection, audit and automation systems, plus personal apps for divers, new investors, students and puzzle fans.">
 <meta name="author" content="Susan Chiu">
 <meta name="google-site-verification" content="rxQo32wreLUH6loqswqdA3kfqINVIJlVvZq-G8IOCYU">
 <link rel="canonical" href="https://susan-chiu.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://susan-chiu.github.io/">
 <meta property="og:title" content="Susan Chiu Portfolio">
-<meta property="og:description" content="Smart-manufacturing project manager in Kaohsiung, Taiwan. Inspection, audit and automation systems, plus personal apps for divers, new investors and students.">
+<meta property="og:description" content="Smart-manufacturing project manager in Kaohsiung, Taiwan. Inspection, audit and automation systems, plus personal apps for divers, new investors, students and puzzle fans.">
 <meta property="og:image" content="https://susan-chiu.github.io/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -20,7 +20,7 @@
 <meta name="twitter:image" content="https://susan-chiu.github.io/og-image.png">
 <meta name="theme-color" content="#06141f">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2306141f' stroke='%23c9a24a' stroke-width='2'/%3E%3Cpath d='M16 5l3 11-3 3-3-3z' fill='%23c9a24a'/%3E%3C/svg%3E">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Susan Chiu", "url": "https://susan-chiu.github.io/", "jobTitle": "Smart Factory Project Section Manager", "address": {"@type": "PostalAddress", "addressLocality": "Kaohsiung", "addressCountry": "TW"}, "description": "Smart-manufacturing project manager in Kaohsiung, Taiwan. Inspection, audit and automation systems, plus personal apps for divers, new investors and students.", "worksFor": {"@type": "Organization", "name": "FLEXium Interconnect"}, "alumniOf": {"@type": "CollegeOrUniversity", "name": "National Kaohsiung University of Applied Sciences"}, "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": "Project Management Professional (PMP)", "recognizedBy": {"@type": "Organization", "name": "Project Management Institute"}}, {"@type": "EducationalOccupationalCredential", "name": "SDI Open Water Scuba Diver"}], "award": ["Highlight Award, 1st place (2017)", "Outstanding Employee (2022)"], "knowsAbout": ["Smart manufacturing", "MES", "SPC", "Project management", "Quality inspection"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Susan Chiu", "url": "https://susan-chiu.github.io/", "jobTitle": "Smart Factory Project Section Manager", "address": {"@type": "PostalAddress", "addressLocality": "Kaohsiung", "addressCountry": "TW"}, "description": "Smart-manufacturing project manager in Kaohsiung, Taiwan. Inspection, audit and automation systems, plus personal apps for divers, new investors, students and puzzle fans.", "worksFor": {"@type": "Organization", "name": "FLEXium Interconnect"}, "alumniOf": {"@type": "CollegeOrUniversity", "name": "National Kaohsiung University of Applied Sciences"}, "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": "Project Management Professional (PMP)", "recognizedBy": {"@type": "Organization", "name": "Project Management Institute"}}, {"@type": "EducationalOccupationalCredential", "name": "SDI Open Water Scuba Diver"}], "award": ["Highlight Award, 1st place (2017)", "Outstanding Employee (2022)"], "knowsAbout": ["Smart manufacturing", "MES", "SPC", "Project management", "Quality inspection"]}</script>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
@@ -66,7 +66,15 @@ body{
 .nav{display:flex;gap:4px;flex-wrap:wrap}
 .nav a{color:var(--silt);text-decoration:none;font-size:.88rem;padding:6px 10px;border-radius:6px}
 .nav a:hover,.nav a:focus-visible{color:var(--foam);background:var(--current);outline:none}
-@media (max-width:560px){.nav a:not(:first-child){display:none}}
+.nav{margin-left:auto}
+.tools{display:flex;align-items:center;gap:8px}
+@media (max-width:640px){
+  .bar .wrap{flex-wrap:wrap;row-gap:4px;padding-block:10px 6px}
+  .tools{margin-left:auto}
+  .nav{order:3;width:100%;margin:0 -8px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{white-space:nowrap;padding:6px 8px;font-size:.84rem}
+}
 
 /* hero */
 .hero{padding-block:clamp(56px,10vw,110px) clamp(32px,6vw,56px);position:relative}
@@ -80,7 +88,7 @@ h1 .zh-name{display:block;font-family:"Noto Serif TC",serif;font-weight:800;font
 .compass{position:absolute;right:0;top:clamp(40px,8vw,90px);width:min(30vw,260px);aspect-ratio:1;max-width:100%;pointer-events:none}
 .compass .needle{transform-origin:100px 100px;animation:sway 7s ease-in-out infinite}
 @keyframes sway{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(10deg)}}
-@media (max-width:820px){.compass{position:static;width:120px;margin-bottom:8px}}
+@media (max-width:820px){.compass{top:clamp(20px,5vw,40px);width:76px;opacity:.8}.hero .gauge-line{padding-right:88px}}
 
 /* section heads */
 section{padding-block:clamp(44px,7vw,80px)}
@@ -91,6 +99,7 @@ section{padding-block:clamp(44px,7vw,80px)}
 
 /* cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
+#grid-personal{grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr))}
 .card{background:linear-gradient(180deg,rgba(18,51,73,.55),rgba(11,34,51,.55));border:1px solid var(--current);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:border-color .25s,transform .25s}
 .card:hover{border-color:var(--brass-dim);transform:translateY(-2px)}
 .shot{background:#081a27;border-bottom:1px solid var(--current);aspect-ratio:16/10;max-width:100%}
@@ -255,6 +264,9 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
 :root[lang="zh-Hant"] .card h3 small,:root[lang="zh-Hant"] .d-head .sub{font-style:normal}
 .zh-fields{border:1px dashed var(--current);border-radius:8px;padding:8px 10px;display:grid;gap:8px}
 .zh-fields summary{cursor:pointer;font-family:var(--f-mono);font-size:.74rem;color:var(--brass)}
+.to-top{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:9;font-family:var(--f-mono);font-size:.76rem;letter-spacing:.06em;color:var(--brass);background:rgba(6,20,31,.88);border:1px solid var(--brass-dim);border-radius:999px;padding:9px 14px;cursor:pointer;opacity:0;transform:translateY(8px);pointer-events:none;transition:opacity .2s,transform .2s}
+.to-top.on{opacity:1;transform:none;pointer-events:auto}
+.to-top:hover,.to-top:focus-visible{background:var(--brass);color:var(--abyss);outline:none}
 </style>
 
 <header class="bar">
@@ -266,11 +278,15 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
+    </nav>
+    <div class="tools">
       <span class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="zh" aria-pressed="false" lang="zh-Hant">中文</button></span>
       <button class="edit-btn" id="editBtn" type="button" hidden>Edit</button>
-    </nav>
+    </div>
   </div>
 </header>
+
+<button class="to-top" id="toTop" type="button" tabindex="-1">↑ <span>Top</span></button>
 
 <aside class="side-gauge" aria-hidden="true">
   <div>DEPTH</div>
@@ -294,11 +310,11 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
       </svg>
       <div class="gauge-line"><span class="dot"></span><span>Kaohsiung, Taiwan · Smart Factory PM &amp; Indie Builder</span></div>
       <h1>Susan <em>Chiu</em></h1>
-      <p class="intro" id="intro">I&#x27;m a smart-manufacturing project manager in Kaohsiung, building inspection, audit and automation systems with production and IT teams at a flexible-PCB maker. Outside work, I design and ship my own apps for divers, new investors and students.</p>
+      <p class="intro" id="intro">I'm a smart-manufacturing project manager in Kaohsiung, building inspection, audit and automation systems with production and IT teams at a flexible-PCB maker. Outside work, I design and ship my own apps for divers, new investors, students and puzzle fans.</p>
       <div class="hero-acts"><a class="btn-pri" href="#contact">Get in touch</a><button class="btn-ghost" id="editProfile" type="button" hidden>Edit intro &amp; contact</button></div>
       <ul class="facts">
         <li><b id="nFactory">6</b> smart-factory projects</li>
-        <li><b id="nPersonal">4</b> personal products</li>
+        <li><b id="nPersonal">5</b> personal products</li>
         <li><b>3</b> languages shipped</li>
       </ul>
     </section>
@@ -417,75 +433,94 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
         <p>Idea, spec, design and launch, carried end to end by one person.</p>
       </div>
       <div class="grid" id="grid-personal"><article class="card feature" id="p-subverse"><div class="shot"><svg viewBox="0 0 360 260" preserveAspectRatio="xMidYMid meet" role="img" aria-label="SubVerse phone screen with a go signal and a dive depth profile">
-            <defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f3a52"/><stop offset="1" stop-color="#06141f"/></linearGradient></defs>
-            <rect width="360" height="260" fill="url(#sea)"/>
-            <g fill="none" stroke="#2b4b61"><circle cx="300" cy="40" r="4"/><circle cx="312" cy="60" r="2.5"/><circle cx="292" cy="76" r="3"/><circle cx="40" cy="210" r="3"/><circle cx="54" cy="226" r="2"/></g>
-            <rect x="34" y="18" width="118" height="224" rx="16" fill="#06141f" stroke="#2b4b61" stroke-width="2"/>
+            <defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f3a52"></stop><stop offset="1" stop-color="#06141f"></stop></linearGradient></defs>
+            <rect width="360" height="260" fill="url(#sea)"></rect>
+            <g fill="none" stroke="#2b4b61"><circle cx="300" cy="40" r="4"></circle><circle cx="312" cy="60" r="2.5"></circle><circle cx="292" cy="76" r="3"></circle><circle cx="40" cy="210" r="3"></circle><circle cx="54" cy="226" r="2"></circle></g>
+            <rect x="34" y="18" width="118" height="224" rx="16" fill="#06141f" stroke="#2b4b61" stroke-width="2"></rect>
             <text x="46" y="44" font-size="8" fill="#8ea6b4">HOUBIHU · KENTING</text>
-            <circle cx="93" cy="88" r="28" fill="#0b2233" stroke="#4fb39a" stroke-width="3"/>
+            <circle cx="93" cy="88" r="28" fill="#0b2233" stroke="#4fb39a" stroke-width="3"></circle>
             <text x="93" y="93" font-size="14" fill="#4fb39a" text-anchor="middle">GO</text>
             <g font-size="7" fill="#e6eef2">
-              <rect x="44" y="130" width="98" height="20" rx="4" fill="#0b2233"/><text x="50" y="143">WAVES</text><text x="136" y="143" text-anchor="end" fill="#4fb39a">0.4 m</text>
-              <rect x="44" y="154" width="98" height="20" rx="4" fill="#0b2233"/><text x="50" y="167">VIS</text><text x="136" y="167" text-anchor="end" fill="#4fb39a">15 m</text>
-              <rect x="44" y="178" width="98" height="20" rx="4" fill="#0b2233"/><text x="50" y="191">WATER</text><text x="136" y="191" text-anchor="end" fill="#c9a24a">27 °C</text>
+              <rect x="44" y="130" width="98" height="20" rx="4" fill="#0b2233"></rect><text x="50" y="143">WAVES</text><text x="136" y="143" text-anchor="end" fill="#4fb39a">0.4 m</text>
+              <rect x="44" y="154" width="98" height="20" rx="4" fill="#0b2233"></rect><text x="50" y="167">VIS</text><text x="136" y="167" text-anchor="end" fill="#4fb39a">15 m</text>
+              <rect x="44" y="178" width="98" height="20" rx="4" fill="#0b2233"></rect><text x="50" y="191">WATER</text><text x="136" y="191" text-anchor="end" fill="#c9a24a">27 °C</text>
             </g>
-            <rect x="44" y="206" width="98" height="24" rx="12" fill="#c9a24a"/><text x="93" y="221" font-size="8" fill="#06141f" text-anchor="middle">LOG THIS DIVE</text>
+            <rect x="44" y="206" width="98" height="24" rx="12" fill="#c9a24a"></rect><text x="93" y="221" font-size="8" fill="#06141f" text-anchor="middle">LOG THIS DIVE</text>
             <text x="176" y="40" font-size="8" fill="#c9a24a">DIVE PROFILE</text>
             <g font-size="7" fill="#8ea6b4"><text x="176" y="62">0 m</text><text x="176" y="122">10 m</text><text x="176" y="182">20 m</text></g>
-            <g stroke="#123349"><line x1="204" y1="60" x2="340" y2="60"/><line x1="204" y1="120" x2="340" y2="120"/><line x1="204" y1="180" x2="340" y2="180"/></g>
-            <path d="M206 60 C220 60 222 160 236 166 S272 158 282 150 S300 120 312 112 L322 112 C330 112 332 60 338 60" fill="none" stroke="#4fb39a" stroke-width="2.5"/>
-            <circle cx="236" cy="166" r="4" fill="#c9a24a"/><text x="242" y="178" font-size="7" fill="#c9a24a">MAX 18 m</text>
+            <g stroke="#123349"><line x1="204" y1="60" x2="340" y2="60"></line><line x1="204" y1="120" x2="340" y2="120"></line><line x1="204" y1="180" x2="340" y2="180"></line></g>
+            <path d="M206 60 C220 60 222 160 236 166 S272 158 282 150 S300 120 312 112 L322 112 C330 112 332 60 338 60" fill="none" stroke="#4fb39a" stroke-width="2.5"></path>
+            <circle cx="236" cy="166" r="4" fill="#c9a24a"></circle><text x="242" y="178" font-size="7" fill="#c9a24a">MAX 18 m</text>
             <text x="300" y="104" font-size="6" fill="#8ea6b4">SAFETY STOP</text>
-            <path d="M262 214c8-8 22-8 30 0-8 8-22 8-30 0zm30 0l8-6v12z" fill="#c9a24a"/>
-            <circle cx="268" cy="212" r="1.5" fill="#06141f"/>
-          </svg></div><div class="body"><div class="card-top"><h3>SubVerse<small>Taiwan dive companion</small></h3><span class="chip build">Pre-launch</span></div><p>An all-in-one app for divers in Taiwan: trip prep, sea conditions, a digital dive log, a certification wallet, and a 3D underwater world you can actually swim through.</p><ul class="feat"><li>&quot;Can I dive today?&quot; signal for each dive site</li><li>Post-dive flying and altitude countdown</li><li>Dive-computer import, replayed as a 3D track</li><li>Marine-life collection unlocked by real dives</li></ul><div class="tags"><span>Three.js 3D</span><span>Capacitor</span><span>Android + iOS</span><span>Codemagic CI</span></div><div class="card-acts"><a class="btn-ghost" href="#subverse">Case study →</a></div></div></article><article class="card" id="p-smartsats"><div class="shot"><svg viewBox="0 0 320 200" role="img" aria-label="Smart Sats phone screen with a dollar-cost averaging chart and a stash jar">
-            <rect x="112" y="10" width="96" height="182" rx="14" fill="#06141f" stroke="#2b4b61" stroke-width="2"/>
+            <path d="M262 214c8-8 22-8 30 0-8 8-22 8-30 0zm30 0l8-6v12z" fill="#c9a24a"></path>
+            <circle cx="268" cy="212" r="1.5" fill="#06141f"></circle>
+          </svg></div><div class="body"><div class="card-top"><h3>SubVerse<small>Taiwan dive companion</small></h3><span class="chip build">Pre-launch</span></div><p>An all-in-one app for divers in Taiwan: trip prep, sea conditions, a digital dive log, a certification wallet, and a 3D underwater world you can actually swim through.</p><ul class="feat"><li>"Can I dive today?" signal for each dive site</li><li>Post-dive flying and altitude countdown</li><li>Dive-computer import, replayed as a 3D track</li><li>Marine-life collection unlocked by real dives</li></ul><div class="tags"><span>Three.js 3D</span><span>Capacitor</span><span>Android + iOS</span><span>Codemagic CI</span></div><div class="card-acts"><button class="btn-ghost" type="button">Case study →</button></div></div></article><article class="card" id="p-smartsats"><div class="shot"><svg viewBox="0 0 320 200" role="img" aria-label="Smart Sats phone screen with a dollar-cost averaging chart and a stash jar">
+            <rect x="112" y="10" width="96" height="182" rx="14" fill="#06141f" stroke="#2b4b61" stroke-width="2"></rect>
             <text x="122" y="32" font-size="7" fill="#8ea6b4">MONTHLY DCA · $50</text>
             <text x="122" y="48" font-size="12" fill="#e6eef2">+38.2%</text>
-            <polyline points="122,108 134,100 144,104 156,88 166,94 178,76 188,80 198,64" fill="none" stroke="#c9a24a" stroke-width="2"/>
-            <g fill="#4fb39a"><circle cx="134" cy="100" r="2.5"/><circle cx="156" cy="88" r="2.5"/><circle cx="178" cy="76" r="2.5"/></g>
-            <rect x="120" y="122" width="80" height="22" rx="11" fill="#0b2233" stroke="#4fb39a"/>
-            <circle cx="132" cy="133" r="4" fill="#4fb39a"/><text x="140" y="136" font-size="7" fill="#4fb39a">BUY SIGNAL</text>
-            <rect x="120" y="152" width="80" height="28" rx="5" fill="#0b2233"/>
+            <polyline points="122,108 134,100 144,104 156,88 166,94 178,76 188,80 198,64" fill="none" stroke="#c9a24a" stroke-width="2"></polyline>
+            <g fill="#4fb39a"><circle cx="134" cy="100" r="2.5"></circle><circle cx="156" cy="88" r="2.5"></circle><circle cx="178" cy="76" r="2.5"></circle></g>
+            <rect x="120" y="122" width="80" height="22" rx="11" fill="#0b2233" stroke="#4fb39a"></rect>
+            <circle cx="132" cy="133" r="4" fill="#4fb39a"></circle><text x="140" y="136" font-size="7" fill="#4fb39a">BUY SIGNAL</text>
+            <rect x="120" y="152" width="80" height="28" rx="5" fill="#0b2233"></rect>
             <text x="126" y="164" font-size="6" fill="#8ea6b4">NEXT STASH DAY</text><text x="126" y="175" font-size="8" fill="#e6eef2">Oct 15</text>
-            <path d="M246 70h40v8c0 4-2 6-4 8v56c0 6-4 10-10 10h-12c-6 0-10-4-10-10V86c-2-2-4-4-4-8z" fill="#0b2233" stroke="#8ea6b4" stroke-width="1.5"/>
-            <path d="M252 108h28v34c0 4-2 6-6 6h-16c-4 0-6-2-6-6z" fill="#c9a24a" opacity=".85"/>
-            <g fill="#8a6f33"><ellipse cx="260" cy="120" rx="5" ry="6"/><ellipse cx="272" cy="132" rx="5" ry="6"/><ellipse cx="262" cy="138" rx="5" ry="6"/></g>
+            <path d="M246 70h40v8c0 4-2 6-4 8v56c0 6-4 10-10 10h-12c-6 0-10-4-10-10V86c-2-2-4-4-4-8z" fill="#0b2233" stroke="#8ea6b4" stroke-width="1.5"></path>
+            <path d="M252 108h28v34c0 4-2 6-6 6h-16c-4 0-6-2-6-6z" fill="#c9a24a" opacity=".85"></path>
+            <g fill="#8a6f33"><ellipse cx="260" cy="120" rx="5" ry="6"></ellipse><ellipse cx="272" cy="132" rx="5" ry="6"></ellipse><ellipse cx="262" cy="138" rx="5" ry="6"></ellipse></g>
             <text x="266" y="168" font-size="7" fill="#8ea6b4" text-anchor="middle">STASH</text>
-            <path d="M44 110c-12-30 10-58 34-46-4 14-10 20-14 26 10 0 14 10 10 20z" fill="#c9a24a"/>
-            <circle cx="62" cy="128" r="16" fill="#8a6f33"/><circle cx="58" cy="124" r="2" fill="#06141f"/><path d="M50 116l-4-8 8 4z" fill="#8a6f33"/>
-          </svg></div><div class="body"><div class="card-top"><h3>Smart Sats<small>Bitcoin for beginners</small></h3><span class="chip live">Web app</span></div><p>A beginner&#x27;s guide to Bitcoin dollar-cost averaging, led by Cong-Cong the squirrel. Practice with real historical prices before risking real money.</p><ul class="feat"><li>Monthly DCA back-test simulator</li><li>Pick your own indicators, check today&#x27;s buy signal</li><li>Stash log, winter mode, stash-day reminders</li></ul><div class="tags"><span>EN / 繁中 / 日本語</span><span>Fintech education</span></div><div class="card-acts"><a class="btn-ghost" href="#smartsats">Case study →</a></div></div></article><article class="card" id="p-jiyu"><div class="shot"><svg viewBox="0 0 320 200" role="img" aria-label="Two people exchanging skills, photography for Excel, with a booked session">
-            <circle cx="78" cy="80" r="30" fill="#123349" stroke="#c9a24a" stroke-width="2"/>
-            <circle cx="78" cy="72" r="10" fill="#8ea6b4"/><path d="M60 100c4-12 32-12 36 0" fill="#8ea6b4"/>
-            <circle cx="242" cy="80" r="30" fill="#123349" stroke="#4fb39a" stroke-width="2"/>
-            <circle cx="242" cy="72" r="10" fill="#8ea6b4"/><path d="M224 100c4-12 32-12 36 0" fill="#8ea6b4"/>
-            <path d="M120 70h80" stroke="#c9a24a" stroke-width="2"/><path d="M194 64l8 6-8 6" fill="none" stroke="#c9a24a" stroke-width="2"/>
-            <path d="M200 92h-80" stroke="#4fb39a" stroke-width="2"/><path d="M126 86l-8 6 8 6" fill="none" stroke="#4fb39a" stroke-width="2"/>
-            <rect x="34" y="124" width="88" height="22" rx="11" fill="#0b2233" stroke="#c9a24a"/><text x="78" y="138" font-size="8" fill="#c9a24a" text-anchor="middle">PHOTOGRAPHY</text>
-            <rect x="208" y="124" width="68" height="22" rx="11" fill="#0b2233" stroke="#4fb39a"/><text x="242" y="138" font-size="8" fill="#4fb39a" text-anchor="middle">EXCEL</text>
-            <rect x="118" y="152" width="84" height="36" rx="6" fill="#0b2233" stroke="#2b4b61"/>
-            <rect x="118" y="152" width="84" height="11" rx="6" fill="#123349"/>
+            <path d="M44 110c-12-30 10-58 34-46-4 14-10 20-14 26 10 0 14 10 10 20z" fill="#c9a24a"></path>
+            <circle cx="62" cy="128" r="16" fill="#8a6f33"></circle><circle cx="58" cy="124" r="2" fill="#06141f"></circle><path d="M50 116l-4-8 8 4z" fill="#8a6f33"></path>
+          </svg></div><div class="body"><div class="card-top"><h3>Smart Sats<small>Bitcoin for beginners</small></h3><span class="chip live">Web app</span></div><p>A beginner's guide to Bitcoin dollar-cost averaging, led by Cong-Cong the squirrel. Practice with real historical prices before risking real money.</p><ul class="feat"><li>Monthly DCA back-test simulator</li><li>Pick your own indicators, check today's buy signal</li><li>Stash log, winter mode, stash-day reminders</li></ul><div class="tags"><span>EN / 繁中 / 日本語</span><span>Fintech education</span></div><div class="card-acts"><button class="btn-ghost" type="button">Case study →</button></div></div></article><article class="card" id="p-jiyu"><div class="shot"><svg viewBox="0 0 320 200" role="img" aria-label="Two people exchanging skills, photography for Excel, with a booked session">
+            <circle cx="78" cy="80" r="30" fill="#123349" stroke="#c9a24a" stroke-width="2"></circle>
+            <circle cx="78" cy="72" r="10" fill="#8ea6b4"></circle><path d="M60 100c4-12 32-12 36 0" fill="#8ea6b4"></path>
+            <circle cx="242" cy="80" r="30" fill="#123349" stroke="#4fb39a" stroke-width="2"></circle>
+            <circle cx="242" cy="72" r="10" fill="#8ea6b4"></circle><path d="M224 100c4-12 32-12 36 0" fill="#8ea6b4"></path>
+            <path d="M120 70h80" stroke="#c9a24a" stroke-width="2"></path><path d="M194 64l8 6-8 6" fill="none" stroke="#c9a24a" stroke-width="2"></path>
+            <path d="M200 92h-80" stroke="#4fb39a" stroke-width="2"></path><path d="M126 86l-8 6 8 6" fill="none" stroke="#4fb39a" stroke-width="2"></path>
+            <rect x="34" y="124" width="88" height="22" rx="11" fill="#0b2233" stroke="#c9a24a"></rect><text x="78" y="138" font-size="8" fill="#c9a24a" text-anchor="middle">PHOTOGRAPHY</text>
+            <rect x="208" y="124" width="68" height="22" rx="11" fill="#0b2233" stroke="#4fb39a"></rect><text x="242" y="138" font-size="8" fill="#4fb39a" text-anchor="middle">EXCEL</text>
+            <rect x="118" y="152" width="84" height="36" rx="6" fill="#0b2233" stroke="#2b4b61"></rect>
+            <rect x="118" y="152" width="84" height="11" rx="6" fill="#123349"></rect>
             <text x="160" y="160" font-size="6" fill="#8ea6b4" text-anchor="middle">SAT · 14:00</text>
             <text x="160" y="180" font-size="8" fill="#e6eef2" text-anchor="middle">Booked ✓</text>
-          </svg></div><div class="body"><div class="card-top"><h3>JiYu SkillMeet<small>Skill exchange for Taiwan</small></h3><span class="chip live">Deployed</span></div><p>Teach someone photography, learn Excel in return. A PWA you add straight to your home screen.</p><ul class="feat"><li>Full stack built from scratch</li><li>Online payments and push notifications</li><li>Shipped with every test scenario passing</li></ul><div class="tags"><span>Supabase</span><span>Vercel</span><span>Stripe</span><span>Web Push</span></div><div class="card-acts"><a class="btn-ghost" href="#jiyu">Case study →</a></div></div></article><article class="card" id="p-cap"><div class="shot"><svg viewBox="0 0 320 200" role="img" aria-label="Exam practice phone screen with a math question, a wrong answer, the correct answer and a streak counter">
-            <rect x="112" y="10" width="96" height="182" rx="14" fill="#06141f" stroke="#2b4b61" stroke-width="2"/>
+          </svg></div><div class="body"><div class="card-top"><h3>JiYu SkillMeet<small>Skill exchange for Taiwan</small></h3><span class="chip live">Deployed</span></div><p>Teach someone photography, learn Excel in return. A PWA you add straight to your home screen.</p><ul class="feat"><li>Full stack built from scratch</li><li>Online payments and push notifications</li><li>Shipped with every test scenario passing</li></ul><div class="tags"><span>Supabase</span><span>Vercel</span><span>Stripe</span><span>Web Push</span></div><div class="card-acts"><button class="btn-ghost" type="button">Case study →</button></div></div></article><article class="card" id="p-cap"><div class="shot"><svg viewBox="0 0 320 200" role="img" aria-label="Exam practice phone screen with a math question, a wrong answer, the correct answer and a streak counter">
+            <rect x="112" y="10" width="96" height="182" rx="14" fill="#06141f" stroke="#2b4b61" stroke-width="2"></rect>
             <text x="122" y="30" font-size="6" fill="#8ea6b4">MATH · GRADE 8A</text>
-            <rect x="120" y="36" width="80" height="30" rx="5" fill="#0b2233"/>
+            <rect x="120" y="36" width="80" height="30" rx="5" fill="#0b2233"></rect>
             <text x="160" y="55" font-size="9" fill="#e6eef2" text-anchor="middle">x² − 5x + 6 = 0</text>
             <g font-size="7">
-              <rect x="120" y="74" width="80" height="18" rx="4" fill="#0b2233" stroke="#2b4b61"/><text x="126" y="86" fill="#8ea6b4">A  x = 1, 6</text>
-              <rect x="120" y="96" width="80" height="18" rx="4" fill="#0b2233" stroke="#e08a5f"/><text x="126" y="108" fill="#e08a5f">B  x = −2, −3</text>
-              <rect x="120" y="118" width="80" height="18" rx="4" fill="#0b2233" stroke="#4fb39a"/><text x="126" y="130" fill="#4fb39a">C  x = 2, 3</text>
+              <rect x="120" y="74" width="80" height="18" rx="4" fill="#0b2233" stroke="#2b4b61"></rect><text x="126" y="86" fill="#8ea6b4">A  x = 1, 6</text>
+              <rect x="120" y="96" width="80" height="18" rx="4" fill="#0b2233" stroke="#e08a5f"></rect><text x="126" y="108" fill="#e08a5f">B  x = −2, −3</text>
+              <rect x="120" y="118" width="80" height="18" rx="4" fill="#0b2233" stroke="#4fb39a"></rect><text x="126" y="130" fill="#4fb39a">C  x = 2, 3</text>
             </g>
-            <rect x="120" y="144" width="80" height="38" rx="5" fill="#123349"/>
+            <rect x="120" y="144" width="80" height="38" rx="5" fill="#123349"></rect>
             <text x="126" y="156" font-size="6" fill="#c9a24a">TUTOR</text>
-            <rect x="126" y="162" width="66" height="3" rx="1.5" fill="#8ea6b4"/><rect x="126" y="170" width="52" height="3" rx="1.5" fill="#8ea6b4"/>
-            <path d="M262 52c10 12 16 22 16 34 0 14-10 24-22 24s-22-10-22-24c0-8 4-14 10-20 0 8 4 12 8 12 0-10 4-18 10-26z" fill="#e08a5f"/>
-            <path d="M256 86c4 4 8 8 8 14 0 6-4 10-8 10s-8-4-8-10c0-4 4-8 8-14z" fill="#c9a24a"/>
+            <rect x="126" y="162" width="66" height="3" rx="1.5" fill="#8ea6b4"></rect><rect x="126" y="170" width="52" height="3" rx="1.5" fill="#8ea6b4"></rect>
+            <path d="M262 52c10 12 16 22 16 34 0 14-10 24-22 24s-22-10-22-24c0-8 4-14 10-20 0 8 4 12 8 12 0-10 4-18 10-26z" fill="#e08a5f"></path>
+            <path d="M256 86c4 4 8 8 8 14 0 6-4 10-8 10s-8-4-8-10c0-4 4-8 8-14z" fill="#c9a24a"></path>
             <text x="256" y="132" font-size="14" fill="#e6eef2" text-anchor="middle">12</text>
             <text x="256" y="144" font-size="7" fill="#8ea6b4" text-anchor="middle">DAY STREAK</text>
             <g font-size="8" fill="#8ea6b4" text-anchor="middle"><text x="62" y="70">CHN</text><text x="62" y="90">ENG</text><text x="62" y="110" fill="#c9a24a">MATH</text><text x="62" y="130">SCI</text><text x="62" y="150">SOC</text></g>
-          </svg></div><div class="body"><div class="card-top"><h3>CAP Tutor<small>Junior-high exam practice</small></h3><span class="chip plan">In development</span></div><p>Practice for Taiwan&#x27;s junior-high CAP exam across all five subjects, aligned to the current curriculum and organized by semester.</p><ul class="feat"><li>A step-by-step tutor for every wrong answer</li><li>Duolingo-style daily streaks</li><li>Free for top-3 students in their school</li></ul><div class="tags"><span>EdTech</span><span>App Store</span><span>Google Play</span></div><div class="card-acts"><a class="btn-ghost" href="#cap">Case study →</a></div></div></article></div>
+          </svg></div><div class="body"><div class="card-top"><h3>Brave Study<small>Junior-high exam practice</small></h3><span class="chip build">Launching</span></div><p>Five quick questions a day and boss battles for review, covering all five subjects of Taiwan's junior-high CAP exam. Every wrong answer gets a step-by-step tutor.</p><ul class="feat"><li>A step-by-step tutor for every wrong answer</li><li>Daily streaks with streak-saver cards and boss battles</li><li>Parent accounts that show practice days and weak units</li><li>Free full access for top-3 students in their school</li></ul><div class="tags"><span>EdTech</span><span>iOS + Android</span><span>Subscriptions</span></div><div class="card-acts"><button class="btn-ghost" type="button">Case study →</button></div></div></article><article class="card" id="p-mixia"><div class="shot"><svg viewBox="0 0 320 200" role="img" aria-label="A cabinet of ten drawers, one pulled open with a glowing key and a torn note inside">
+            <rect x="78" y="18" width="164" height="168" rx="6" fill="#0b2233" stroke="#8a6f33" stroke-width="2"></rect>
+            <g fill="#06141f" stroke="#2b4b61" stroke-width="1.5">
+              <rect x="88" y="28" width="68" height="26" rx="3"></rect><rect x="164" y="28" width="68" height="26" rx="3"></rect>
+              <rect x="88" y="62" width="68" height="26" rx="3"></rect>
+              <rect x="88" y="96" width="68" height="26" rx="3"></rect><rect x="164" y="96" width="68" height="26" rx="3"></rect>
+              <rect x="88" y="130" width="68" height="26" rx="3"></rect><rect x="164" y="130" width="68" height="26" rx="3"></rect>
+              <rect x="88" y="164" width="68" height="14" rx="3"></rect><rect x="164" y="164" width="68" height="14" rx="3"></rect>
+            </g>
+            <g fill="#c9a24a"><circle cx="122" cy="41" r="2.5"></circle><circle cx="198" cy="41" r="2.5"></circle><circle cx="122" cy="75" r="2.5"></circle><circle cx="122" cy="109" r="2.5"></circle><circle cx="198" cy="109" r="2.5"></circle><circle cx="122" cy="143" r="2.5"></circle><circle cx="198" cy="143" r="2.5"></circle></g>
+            <rect x="164" y="62" width="68" height="26" rx="3" fill="#030b12"></rect>
+            <path d="M156 70 L250 70 L268 90 L174 90 Z" fill="#123349" stroke="#c9a24a" stroke-width="1.5"></path>
+            <path d="M174 90 L268 90 L268 104 L174 104 Z" fill="#0b2233" stroke="#c9a24a" stroke-width="1.5"></path>
+            <circle cx="221" cy="97" r="2.5" fill="#c9a24a"></circle>
+            <ellipse cx="212" cy="62" rx="44" ry="20" fill="#c9a24a" opacity=".12"></ellipse>
+            <g transform="translate(192 70) rotate(-14)"><circle cx="0" cy="0" r="6" fill="none" stroke="#e8c46a" stroke-width="2.5"></circle><path d="M6 0 H26 M20 0 V6 M25 0 V5" stroke="#e8c46a" stroke-width="2.5" fill="none"></path></g>
+            <path d="M226 74 L246 72 L248 84 L242 82 L236 86 L228 84 Z" fill="#e6eef2" opacity=".85"></path>
+            <path d="M231 77 H243 M231 80 H240" stroke="#06141f" stroke-width="1"></path>
+            <g fill="#8ea6b4" opacity=".7"><circle cx="40" cy="40" r="1.2"></circle><circle cx="286" cy="150" r="1.2"></circle><circle cx="292" cy="34" r="1"></circle><circle cx="30" cy="160" r="1"></circle></g>
+          </svg></div><div class="body"><div class="card-top"><h3>Mixia<small>Story puzzle game</small></h3><span class="chip build">Launching</span></div><p>Ten drawers, ten stories. A story-driven puzzle game for teens that runs from quiet mystery to real horror, where some choices end the story for good.</p><ul class="feat"><li>Ten stories, from mystery to horror</li><li>A hint for every puzzle, plus chapter select</li><li>Multiple endings to unlock and collect</li><li>Plays fully offline: no account, no ads, no tracking</li></ul><div class="tags"><span>Puzzle game</span><span>Offline</span><span>iOS + Android</span></div><div class="card-acts"><button class="btn-ghost" type="button">Case study →</button></div></div></article></div>
     </section>
 
     <section id="experience">
@@ -720,6 +755,26 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
             <text x="160" y="160" font-size="6" fill="#8ea6b4" text-anchor="middle">SAT · 14:00</text>
             <text x="160" y="180" font-size="8" fill="#e6eef2" text-anchor="middle">Booked ✓</text>
           </svg></template>
+<template id="art-mixia"><svg viewBox="0 0 320 200" role="img" aria-label="A cabinet of ten drawers, one pulled open with a glowing key and a torn note inside">
+            <rect x="78" y="18" width="164" height="168" rx="6" fill="#0b2233" stroke="#8a6f33" stroke-width="2"/>
+            <g fill="#06141f" stroke="#2b4b61" stroke-width="1.5">
+              <rect x="88" y="28" width="68" height="26" rx="3"/><rect x="164" y="28" width="68" height="26" rx="3"/>
+              <rect x="88" y="62" width="68" height="26" rx="3"/>
+              <rect x="88" y="96" width="68" height="26" rx="3"/><rect x="164" y="96" width="68" height="26" rx="3"/>
+              <rect x="88" y="130" width="68" height="26" rx="3"/><rect x="164" y="130" width="68" height="26" rx="3"/>
+              <rect x="88" y="164" width="68" height="14" rx="3"/><rect x="164" y="164" width="68" height="14" rx="3"/>
+            </g>
+            <g fill="#c9a24a"><circle cx="122" cy="41" r="2.5"/><circle cx="198" cy="41" r="2.5"/><circle cx="122" cy="75" r="2.5"/><circle cx="122" cy="109" r="2.5"/><circle cx="198" cy="109" r="2.5"/><circle cx="122" cy="143" r="2.5"/><circle cx="198" cy="143" r="2.5"/></g>
+            <rect x="164" y="62" width="68" height="26" rx="3" fill="#030b12"/>
+            <path d="M156 70 L250 70 L268 90 L174 90 Z" fill="#123349" stroke="#c9a24a" stroke-width="1.5"/>
+            <path d="M174 90 L268 90 L268 104 L174 104 Z" fill="#0b2233" stroke="#c9a24a" stroke-width="1.5"/>
+            <circle cx="221" cy="97" r="2.5" fill="#c9a24a"/>
+            <ellipse cx="212" cy="62" rx="44" ry="20" fill="#c9a24a" opacity=".12"/>
+            <g transform="translate(192 70) rotate(-14)"><circle cx="0" cy="0" r="6" fill="none" stroke="#e8c46a" stroke-width="2.5"/><path d="M6 0 H26 M20 0 V6 M25 0 V5" stroke="#e8c46a" stroke-width="2.5" fill="none"/></g>
+            <path d="M226 74 L246 72 L248 84 L242 82 L236 86 L228 84 Z" fill="#e6eef2" opacity=".85"/>
+            <path d="M231 77 H243 M231 80 H240" stroke="#06141f" stroke-width="1"/>
+            <g fill="#8ea6b4" opacity=".7"><circle cx="40" cy="40" r="1.2"/><circle cx="286" cy="150" r="1.2"/><circle cx="292" cy="34" r="1"/><circle cx="30" cy="160" r="1"/></g>
+          </svg></template>
 <template id="art-cap"><svg viewBox="0 0 320 200" role="img" aria-label="Exam practice phone screen with a math question, a wrong answer, the correct answer and a streak counter">
             <rect x="112" y="10" width="96" height="182" rx="14" fill="#06141f" stroke="#2b4b61" stroke-width="2"/>
             <text x="122" y="30" font-size="6" fill="#8ea6b4">MATH · GRADE 8A</text>
@@ -739,7 +794,7 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
             <text x="256" y="144" font-size="7" fill="#8ea6b4" text-anchor="middle">DAY STREAK</text>
             <g font-size="8" fill="#8ea6b4" text-anchor="middle"><text x="62" y="70">CHN</text><text x="62" y="90">ENG</text><text x="62" y="110" fill="#c9a24a">MATH</text><text x="62" y="130">SCI</text><text x="62" y="150">SOC</text></g>
           </svg></template>
-<script type="application/json" id="seed">{"version": 4, "projects": [{"id": "field-audit", "section": "factory", "title": "Field Audit Assistant", "subtitle": "", "status": "Prototype", "tone": "build", "desc": "Auditors photograph and narrate issues on the spot. The system drafts a traceable corrective-action record, and the fix closes within seven days.", "features": [], "tags": ["PWA", "Speech-to-text", "MES"], "cover": {"art": "field-audit"}, "problem": "Audit findings were written up by hand after each walk, details got lost along the way, and follow-up actions often slipped past their deadline.", "role": "Defined the requirements, wrote the IT spec and built the working mobile prototype.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "現場稽核助手", "status": "原型", "desc": "稽核人員在現場拍照並口述問題，系統自動產生可追溯的改善單草稿，七天內完成改善結案。", "problem": "稽核發現都是巡完後才手寫整理，細節容易遺漏，後續改善也常超過期限。", "role": "定義需求、撰寫 IT 規格書，並做出可實際操作的手機版原型。"}}, {"id": "audit-dispatch", "section": "factory", "title": "Smart Audit Dispatch", "subtitle": "", "status": "Proposal", "tone": "plan", "desc": "Every morning, MES and SPC anomalies produce a ranked list of machines to audit and dispatch it to inspectors, so audits go where the problems are.", "features": [], "tags": ["MES", "SPC", "IPQC"], "cover": {"art": "audit-dispatch"}, "problem": "Inspectors audited machines on a fixed rotation, while machines already showing anomalies in MES and SPC were not prioritized.", "role": "Proposed the concept and wrote the requirements for management and IT review.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "智慧稽核派工", "status": "提案中", "desc": "每天早上依 MES 與 SPC 異常資料，自動排出待稽核機台清單並派工，讓稽核直接到有問題的地方。", "problem": "稽核人員依固定輪序巡查，已在 MES、SPC 出現異常的機台卻沒有被優先處理。", "role": "提出構想並撰寫需求文件，供主管與 IT 評估。"}}, {"id": "ois", "section": "factory", "title": "OIS 2.0 Inspection Platform", "subtitle": "", "status": "Live", "tone": "live", "desc": "Led the inspection system's UI redesign and automated first-article inspection gating, rolled out across many production workstations.", "features": [], "tags": ["FAI", "IPQC", "AOI / LVI"], "cover": {"art": "ois"}, "problem": "Inspection navigation was hard to follow, and first-article results were passed along by hand without a link to the work order.", "role": "Led the UI redesign and first-article inspection improvements, and coordinated the rollout across workstations.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "OIS 2.0 檢驗平台", "status": "已上線", "desc": "主導檢驗系統介面改版與首件檢驗自動卡控，並導入多個生產工站。", "problem": "檢驗操作動線不易理解，首件結果靠人工傳遞，也沒有和工單連動。", "role": "主導介面改版與首件檢驗優化，並協調各工站導入上線。"}}, {"id": "hr-notice", "section": "factory", "title": "HR Notice Automation", "subtitle": "", "status": "In development", "tone": "build", "desc": "Automatically anonymizes names, condenses notice text and screens leave-document photos, with HR review kept for borderline cases.", "features": [], "tags": ["Anonymization", "Vision", "EIP"], "cover": {"art": "hr-notice"}, "problem": "Each monthly notice meant manually masking names, trimming text and checking leave documents one by one.", "role": "Turned the HR requirements into the functional and program specs, including the review rules.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "獎懲公告自動化", "status": "開發中", "desc": "自動將姓名去識別化、精簡公告文字並審查請假證明照片，邊界案例保留人資人工覆核。", "problem": "每月公告都要人工遮罩姓名、刪修文字，並逐一檢查請假證明。", "role": "將人資需求轉成功能與程式規格書，包含審查規則。"}}, {"id": "cam", "section": "factory", "title": "CAM Back-office Automation", "subtitle": "", "status": "Rolling out", "tone": "build", "desc": "Engineering jobs flow from scheduling through scripted processing to database write-back without manual hand-offs.", "features": [], "tags": ["WIP", "Scripting", "Database"], "cover": {"art": "cam"}, "problem": "Design staff repeated the same scheduling and scripting steps for every engineering job.", "role": "Defined the automation flow, tracked delivery and reported progress to leadership.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "CAM 後台自動化", "status": "導入中", "desc": "工程資料從排件、腳本處理到資料庫回寫全程自動串接，不需人工交接。", "problem": "設計人員每一筆工程資料都要重複相同的排件與腳本步驟。", "role": "定義自動化流程、追蹤開發進度並向高階主管報告。"}}, {"id": "material", "section": "factory", "title": "Material Error-proofing", "subtitle": "", "status": "Spec ready", "tone": "plan", "desc": "Binds work order, material lot and reel ID to replace hand labeling, tracks reel usage automatically, with an RFID roadmap.", "features": [], "tags": ["Barcode", "RFID", "MES / SAP"], "cover": {"art": "material"}, "problem": "Labels went missing or were swapped, thickness readings were copied by hand, and reel life was never recorded.", "role": "Defined the control rules and wrote the IT spec and data table definitions.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "原材料防錯", "status": "規格完成", "desc": "以工單、材料批號與捲管 ID 三方綁定取代人工貼標，自動累計捲管使用次數，並規劃 RFID 導入。", "problem": "標籤遺失或貼錯、厚度靠人工抄錄，捲管壽命也沒有紀錄。", "role": "定義卡控規則，撰寫 IT 規格書與資料表定義。"}}, {"id": "subverse", "section": "personal", "featured": true, "title": "SubVerse", "subtitle": "Taiwan dive companion", "status": "Pre-launch", "tone": "build", "desc": "An all-in-one app for divers in Taiwan: trip prep, sea conditions, a digital dive log, a certification wallet, and a 3D underwater world you can actually swim through.", "features": ["\"Can I dive today?\" signal for each dive site", "Post-dive flying and altitude countdown", "Dive-computer import, replayed as a 3D track", "Marine-life collection unlocked by real dives"], "tags": ["Three.js 3D", "Capacitor", "Android + iOS", "Codemagic CI"], "cover": {"art": "subverse"}, "problem": "Divers in Taiwan check sea conditions, logs and certifications across scattered apps and websites.", "role": "Solo: product, design, development and app-store release.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "潛境 SubVerse", "subtitle": "台灣潛水夥伴", "status": "上架準備中", "desc": "給台灣潛水愛好者的一站式 App：行前準備、海況、電子潛水日誌、證照錢包，還有可以實際游動的 3D 水下世界。", "features": ["每個潛點的「今天能不能下水」燈號", "潛後搭機與上山安全倒數", "匯入潛水電腦錶，重播成 3D 航跡", "真實潛水解鎖海洋生物圖鑑"], "problem": "台灣潛水員要查海況、記日誌、帶證照，資訊散在各個 App 和網站。", "role": "一人完成：產品、設計、開發與上架。"}}, {"id": "smartsats", "section": "personal", "title": "Smart Sats", "subtitle": "Bitcoin for beginners", "status": "Web app", "tone": "live", "desc": "A beginner's guide to Bitcoin dollar-cost averaging, led by Cong-Cong the squirrel. Practice with real historical prices before risking real money.", "features": ["Monthly DCA back-test simulator", "Pick your own indicators, check today's buy signal", "Stash log, winter mode, stash-day reminders"], "tags": ["EN / 繁中 / 日本語", "Fintech education"], "cover": {"art": "smartsats"}, "problem": "Beginners want to start with Bitcoin but don't know how dollar-cost averaging plays out or when to buy.", "role": "Solo: product, design and development.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "聰明鼠 Smart Sats", "subtitle": "比特幣新手入門", "status": "網頁版", "desc": "由松鼠「聰聰」帶路的比特幣定期定額教學，先用真實歷史價格練習，再決定要不要投入真錢。", "features": ["每月定期定額回測模擬", "自選技術指標，查看今天是否到買點", "糧倉買入紀錄、冬天模式、存糧日提醒"], "problem": "新手想開始買比特幣，卻不知道定期定額的實際效果，也不知道何時該買。", "role": "一人完成：產品、設計與開發。"}}, {"id": "jiyu", "section": "personal", "title": "JiYu SkillMeet", "subtitle": "Skill exchange for Taiwan", "status": "Deployed", "tone": "live", "desc": "Teach someone photography, learn Excel in return. A PWA you add straight to your home screen.", "features": ["Full stack built from scratch", "Online payments and push notifications", "Shipped with every test scenario passing"], "tags": ["Supabase", "Vercel", "Stripe", "Web Push"], "cover": {"art": "jiyu"}, "problem": "Paid courses are expensive, while many people have a skill they would happily teach in exchange.", "role": "Solo: product, full-stack development and deployment.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "技遇 JiYu SkillMeet", "subtitle": "台灣技能交換平台", "status": "已上線", "desc": "你教我攝影，我教你 Excel。PWA 形式，加到手機主畫面就能用。", "features": ["從零打造全端架構", "線上金流與推播通知", "所有測試情境通過後上線"], "problem": "付費課程很貴，但很多人都有願意拿來交換的專長。", "role": "一人完成：產品、全端開發與部署。"}}, {"id": "cap", "section": "personal", "title": "CAP Tutor", "subtitle": "Junior-high exam practice", "status": "In development", "tone": "plan", "desc": "Practice for Taiwan's junior-high CAP exam across all five subjects, aligned to the current curriculum and organized by semester.", "features": ["A step-by-step tutor for every wrong answer", "Duolingo-style daily streaks", "Free for top-3 students in their school"], "tags": ["EdTech", "App Store", "Google Play"], "cover": {"art": "cap"}, "problem": "Students practice past exam questions but get little explanation of what they got wrong.", "role": "Solo: product definition, design and development.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "錯題小老師", "subtitle": "國中會考練習", "status": "開發中", "desc": "依現行課綱整理國、英、數、自、社五科會考練習，按學期分冊複習。", "features": ["每道錯題都有逐步解說的小老師", "像 Duolingo 一樣的每日連續挑戰", "全校前三名可免費使用"], "problem": "學生練了很多考古題，卻很少得到錯在哪裡的解說。", "role": "一人完成：產品定義、設計與開發。"}}], "items": {}, "profile": {"intro": "I'm a smart-manufacturing project manager in Kaohsiung, building inspection, audit and automation systems with production and IT teams at a flexible-PCB maker. Outside work, I design and ship my own apps for divers, new investors and students.", "email": "yskyskygirl19830613@gmail.com", "linkedin": "", "github": "", "intro_zh": "我是高雄的智慧工廠專案課長，在軟板製造廠與生產及 IT 團隊一起建置檢驗、稽核與自動化系統。工作之外，我自己設計並開發給潛水員、投資新手和學生使用的 App。"}}</script>
+<script type="application/json" id="seed">{"version": 5, "projects": [{"id": "field-audit", "section": "factory", "title": "Field Audit Assistant", "subtitle": "", "status": "Prototype", "tone": "build", "desc": "Auditors photograph and narrate issues on the spot. The system drafts a traceable corrective-action record, and the fix closes within seven days.", "features": [], "tags": ["PWA", "Speech-to-text", "MES"], "cover": {"art": "field-audit"}, "problem": "Audit findings were written up by hand after each walk, details got lost along the way, and follow-up actions often slipped past their deadline.", "role": "Defined the requirements, wrote the IT spec and built the working mobile prototype.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "現場稽核助手", "status": "原型", "desc": "稽核人員在現場拍照並口述問題，系統自動產生可追溯的改善單草稿，七天內完成改善結案。", "problem": "稽核發現都是巡完後才手寫整理，細節容易遺漏，後續改善也常超過期限。", "role": "定義需求、撰寫 IT 規格書，並做出可實際操作的手機版原型。"}}, {"id": "audit-dispatch", "section": "factory", "title": "Smart Audit Dispatch", "subtitle": "", "status": "Proposal", "tone": "plan", "desc": "Every morning, MES and SPC anomalies produce a ranked list of machines to audit and dispatch it to inspectors, so audits go where the problems are.", "features": [], "tags": ["MES", "SPC", "IPQC"], "cover": {"art": "audit-dispatch"}, "problem": "Inspectors audited machines on a fixed rotation, while machines already showing anomalies in MES and SPC were not prioritized.", "role": "Proposed the concept and wrote the requirements for management and IT review.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "智慧稽核派工", "status": "提案中", "desc": "每天早上依 MES 與 SPC 異常資料，自動排出待稽核機台清單並派工，讓稽核直接到有問題的地方。", "problem": "稽核人員依固定輪序巡查，已在 MES、SPC 出現異常的機台卻沒有被優先處理。", "role": "提出構想並撰寫需求文件，供主管與 IT 評估。"}}, {"id": "ois", "section": "factory", "title": "OIS 2.0 Inspection Platform", "subtitle": "", "status": "Live", "tone": "live", "desc": "Led the inspection system's UI redesign and automated first-article inspection gating, rolled out across many production workstations.", "features": [], "tags": ["FAI", "IPQC", "AOI / LVI"], "cover": {"art": "ois"}, "problem": "Inspection navigation was hard to follow, and first-article results were passed along by hand without a link to the work order.", "role": "Led the UI redesign and first-article inspection improvements, and coordinated the rollout across workstations.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "OIS 2.0 檢驗平台", "status": "已上線", "desc": "主導檢驗系統介面改版與首件檢驗自動卡控，並導入多個生產工站。", "problem": "檢驗操作動線不易理解，首件結果靠人工傳遞，也沒有和工單連動。", "role": "主導介面改版與首件檢驗優化，並協調各工站導入上線。"}}, {"id": "hr-notice", "section": "factory", "title": "HR Notice Automation", "subtitle": "", "status": "In development", "tone": "build", "desc": "Automatically anonymizes names, condenses notice text and screens leave-document photos, with HR review kept for borderline cases.", "features": [], "tags": ["Anonymization", "Vision", "EIP"], "cover": {"art": "hr-notice"}, "problem": "Each monthly notice meant manually masking names, trimming text and checking leave documents one by one.", "role": "Turned the HR requirements into the functional and program specs, including the review rules.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "獎懲公告自動化", "status": "開發中", "desc": "自動將姓名去識別化、精簡公告文字並審查請假證明照片，邊界案例保留人資人工覆核。", "problem": "每月公告都要人工遮罩姓名、刪修文字，並逐一檢查請假證明。", "role": "將人資需求轉成功能與程式規格書，包含審查規則。"}}, {"id": "cam", "section": "factory", "title": "CAM Back-office Automation", "subtitle": "", "status": "Rolling out", "tone": "build", "desc": "Engineering jobs flow from scheduling through scripted processing to database write-back without manual hand-offs.", "features": [], "tags": ["WIP", "Scripting", "Database"], "cover": {"art": "cam"}, "problem": "Design staff repeated the same scheduling and scripting steps for every engineering job.", "role": "Defined the automation flow, tracked delivery and reported progress to leadership.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "CAM 後台自動化", "status": "導入中", "desc": "工程資料從排件、腳本處理到資料庫回寫全程自動串接，不需人工交接。", "problem": "設計人員每一筆工程資料都要重複相同的排件與腳本步驟。", "role": "定義自動化流程、追蹤開發進度並向高階主管報告。"}}, {"id": "material", "section": "factory", "title": "Material Error-proofing", "subtitle": "", "status": "Spec ready", "tone": "plan", "desc": "Binds work order, material lot and reel ID to replace hand labeling, tracks reel usage automatically, with an RFID roadmap.", "features": [], "tags": ["Barcode", "RFID", "MES / SAP"], "cover": {"art": "material"}, "problem": "Labels went missing or were swapped, thickness readings were copied by hand, and reel life was never recorded.", "role": "Defined the control rules and wrote the IT spec and data table definitions.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "原材料防錯", "status": "規格完成", "desc": "以工單、材料批號與捲管 ID 三方綁定取代人工貼標，自動累計捲管使用次數，並規劃 RFID 導入。", "problem": "標籤遺失或貼錯、厚度靠人工抄錄，捲管壽命也沒有紀錄。", "role": "定義卡控規則，撰寫 IT 規格書與資料表定義。"}}, {"id": "subverse", "section": "personal", "featured": true, "title": "SubVerse", "subtitle": "Taiwan dive companion", "status": "Pre-launch", "tone": "build", "desc": "An all-in-one app for divers in Taiwan: trip prep, sea conditions, a digital dive log, a certification wallet, and a 3D underwater world you can actually swim through.", "features": ["\"Can I dive today?\" signal for each dive site", "Post-dive flying and altitude countdown", "Dive-computer import, replayed as a 3D track", "Marine-life collection unlocked by real dives"], "tags": ["Three.js 3D", "Capacitor", "Android + iOS", "Codemagic CI"], "cover": {"art": "subverse"}, "problem": "Divers in Taiwan check sea conditions, logs and certifications across scattered apps and websites.", "role": "Solo: product, design, development and app-store release.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "潛境 SubVerse", "subtitle": "台灣潛水夥伴", "status": "上架準備中", "desc": "給台灣潛水愛好者的一站式 App：行前準備、海況、電子潛水日誌、證照錢包，還有可以實際游動的 3D 水下世界。", "features": ["每個潛點的「今天能不能下水」燈號", "潛後搭機與上山安全倒數", "匯入潛水電腦錶，重播成 3D 航跡", "真實潛水解鎖海洋生物圖鑑"], "problem": "台灣潛水員要查海況、記日誌、帶證照，資訊散在各個 App 和網站。", "role": "一人完成：產品、設計、開發與上架。"}}, {"id": "smartsats", "section": "personal", "title": "Smart Sats", "subtitle": "Bitcoin for beginners", "status": "Web app", "tone": "live", "desc": "A beginner's guide to Bitcoin dollar-cost averaging, led by Cong-Cong the squirrel. Practice with real historical prices before risking real money.", "features": ["Monthly DCA back-test simulator", "Pick your own indicators, check today's buy signal", "Stash log, winter mode, stash-day reminders"], "tags": ["EN / 繁中 / 日本語", "Fintech education"], "cover": {"art": "smartsats"}, "problem": "Beginners want to start with Bitcoin but don't know how dollar-cost averaging plays out or when to buy.", "role": "Solo: product, design and development.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "聰明鼠 Smart Sats", "subtitle": "比特幣新手入門", "status": "網頁版", "desc": "由松鼠「聰聰」帶路的比特幣定期定額教學，先用真實歷史價格練習，再決定要不要投入真錢。", "features": ["每月定期定額回測模擬", "自選技術指標，查看今天是否到買點", "糧倉買入紀錄、冬天模式、存糧日提醒"], "problem": "新手想開始買比特幣，卻不知道定期定額的實際效果，也不知道何時該買。", "role": "一人完成：產品、設計與開發。"}}, {"id": "jiyu", "section": "personal", "title": "JiYu SkillMeet", "subtitle": "Skill exchange for Taiwan", "status": "Deployed", "tone": "live", "desc": "Teach someone photography, learn Excel in return. A PWA you add straight to your home screen.", "features": ["Full stack built from scratch", "Online payments and push notifications", "Shipped with every test scenario passing"], "tags": ["Supabase", "Vercel", "Stripe", "Web Push"], "cover": {"art": "jiyu"}, "problem": "Paid courses are expensive, while many people have a skill they would happily teach in exchange.", "role": "Solo: product, full-stack development and deployment.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "技遇 JiYu SkillMeet", "subtitle": "台灣技能交換平台", "status": "已上線", "desc": "你教我攝影，我教你 Excel。PWA 形式，加到手機主畫面就能用。", "features": ["從零打造全端架構", "線上金流與推播通知", "所有測試情境通過後上線"], "problem": "付費課程很貴，但很多人都有願意拿來交換的專長。", "role": "一人完成：產品、全端開發與部署。"}}, {"id": "cap", "section": "personal", "title": "Brave Study", "subtitle": "Junior-high exam practice", "status": "Launching", "tone": "build", "desc": "Five quick questions a day and boss battles for review, covering all five subjects of Taiwan's junior-high CAP exam. Every wrong answer gets a step-by-step tutor.", "features": ["A step-by-step tutor for every wrong answer", "Daily streaks with streak-saver cards and boss battles", "Parent accounts that show practice days and weak units", "Free full access for top-3 students in their school"], "tags": ["EdTech", "iOS + Android", "Subscriptions"], "cover": {"art": "cap"}, "problem": "Students practice past exam questions but get little explanation of what they got wrong.", "role": "Solo: product definition, design and development.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "勇敢學吧", "subtitle": "國中會考練習", "status": "上架中", "desc": "每天 5 題、打魔王複習，涵蓋國中會考五科。每一道錯題都有小老師一步步帶你想懂。", "features": ["每道錯題都有逐步講解的小老師", "每日連勝、保護卡與打魔王複習", "家長帳號可看練習天數與待加強單元", "全校前三名可免費使用完整版"], "problem": "學生練了很多考古題，卻很少得到錯在哪裡的解說。", "role": "一人完成：產品定義、設計與開發。"}}, {"id": "mixia", "section": "personal", "title": "Mixia", "subtitle": "Story puzzle game", "status": "Launching", "tone": "build", "desc": "Ten drawers, ten stories. A story-driven puzzle game for teens that runs from quiet mystery to real horror, where some choices end the story for good.", "features": ["Ten stories, from mystery to horror", "A hint for every puzzle, plus chapter select", "Multiple endings to unlock and collect", "Plays fully offline: no account, no ads, no tracking"], "tags": ["Puzzle game", "Offline", "iOS + Android"], "cover": {"art": "mixia"}, "problem": "Puzzle games for teens rarely give the puzzles a story worth following.", "role": "Solo: story, puzzle design, development and release.", "approach": "", "results": "", "link": "", "linkLabel": "", "zh": {"title": "謎匣 Mixia", "subtitle": "劇情解謎遊戲", "status": "上架中", "desc": "十個抽屜，十個故事。給青少年的劇情解謎遊戲，從懸疑一路走到恐怖，有些選擇會讓故事就此結束。", "features": ["十個故事，從懸疑到恐怖", "每一題都有提示，也能選章節", "多重結局，可以解鎖收集", "完全離線：不用帳號、沒有廣告和追蹤"], "problem": "給青少年的解謎遊戲，很少有值得跟著走下去的故事。", "role": "一人完成：劇本、謎題設計、開發與上架。"}}], "items": {}, "profile": {"intro": "I'm a smart-manufacturing project manager in Kaohsiung, building inspection, audit and automation systems with production and IT teams at a flexible-PCB maker. Outside work, I design and ship my own apps for divers, new investors, students and puzzle fans.", "email": "yskyskygirl19830613@gmail.com", "linkedin": "", "github": "", "intro_zh": "我是高雄的智慧工廠專案課長，在軟板製造廠與生產及 IT 團隊一起建置檢驗、稽核與自動化系統。工作之外，我自己設計並開發給潛水員、投資新手、學生和解謎玩家使用的 App。"}}</script>
 
 <footer>
   <div class="wrap">
@@ -757,7 +812,10 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
     fill.style.height=(p*100)+'%';
     val.textContent=Math.round(p*60)+' m';
   }
-  addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  var top=document.getElementById('toTop');
+  top.addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'})});
+  function onTop(){var on=scrollY>innerHeight*1.2;top.classList.toggle('on',on);top.tabIndex=on?0:-1}
+  addEventListener('scroll',function(){onScroll();onTop()},{passive:true}); onScroll(); onTop();
 })();
 
 /* Projects and their media, all editable by the owner and saved as data/site.json */
@@ -783,7 +841,7 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
     "STASH":"糧倉","PHOTOGRAPHY":"攝影","SAT · 14:00":"週六 · 14:00","Booked ✓":"已預約 ✓","MATH · GRADE 8A":"數學 · 八上","TUTOR":"小老師",
     "DAY STREAK":"天連續","UCL":"上限","LCL":"下限","REEL 1011-0427":"捲管 1011-0427","CHN":"國文","ENG":"英文","MATH":"數學","SCI":"自然","SOC":"社會"};
   var TAGT={"Anonymization":"去識別化","Barcode":"條碼","Database":"資料庫","Scripting":"腳本自動化","Speech-to-text":"語音轉文字",
-    "Vision":"影像辨識","EdTech":"教育科技","Fintech education":"理財教育"};
+    "Vision":"影像辨識","EdTech":"教育科技","Subscriptions":"訂閱制","Puzzle game":"解謎遊戲","Offline":"離線遊玩","Fintech education":"理財教育"};
 
 
   /* edit UI in Chinese */
@@ -832,7 +890,7 @@ a.val:hover,a.val:focus-visible{color:var(--brass);outline:none}
   var STATIC={
     'Smart Factory':'智慧工廠','Projects':'個人作品','Experience':'經歷','Skills':'專長','Contact':'聯絡','DEPTH':'深度',
     'Kaohsiung, Taiwan · Smart Factory PM & Indie Builder':'台灣・高雄 · 智慧工廠專案課長｜App 開發',
-    'Get in touch':'與我聯絡',' smart-factory projects':' 個智慧工廠專案',' personal products':' 項個人作品',' languages shipped':' 種語言版本',
+    'Get in touch':'與我聯絡','Top':'頂端',' smart-factory projects':' 個智慧工廠專案',' personal products':' 項個人作品',' languages shipped':' 種語言版本',
     'Smart Factory Work':'智慧工廠專案',
     '* Concepts and my role only. Illustrations are schematic; internal screens and data are not shown.':'※ 僅呈現專案概念與我負責的角色；圖片為示意圖，不含公司內部畫面與數據。',
     'Personal Projects':'個人作品','Idea, spec, design and launch, carried end to end by one person.':'從構想、規格、設計到上線，一個人完成。',
