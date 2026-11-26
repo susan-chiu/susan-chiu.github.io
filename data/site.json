@@ -1,5 +1,5 @@
 {
- "version": 5,
+ "version": 6,
  "projects": [
   {
    "id": "field-audit",
@@ -209,14 +209,14 @@
     "Codemagic CI"
    ],
    "cover": {
-    "file": "media/subverse-scene.webp"
+    "file": "media/cover-subverse.webp"
    },
    "problem": "Divers in Taiwan check sea conditions, logs and certifications across scattered apps and websites.",
    "role": "Solo: product, design, development and app-store release.",
    "approach": "",
    "results": "",
-   "link": "",
-   "linkLabel": "",
+   "link": "https://claude.ai/artifact/7U7Zq7CdwLN9uf1UdYmFVE",
+   "linkLabel": "Open web demo",
    "zh": {
     "title": "潛境 SubVerse",
     "subtitle": "台灣潛水夥伴",
@@ -229,7 +229,8 @@
      "真實潛水解鎖海洋生物圖鑑"
     ],
     "problem": "台灣潛水員要查海況、記日誌、帶證照，資訊散在各個 App 和網站。",
-    "role": "一人完成：產品、設計、開發與上架。"
+    "role": "一人完成：產品、設計、開發與上架。",
+    "linkLabel": "開啟網頁版"
    }
   },
   {
@@ -250,7 +251,7 @@
     "Fintech education"
    ],
    "cover": {
-    "file": "media/smartsats-cover.webp"
+    "file": "media/cover-smartsats.webp"
    },
    "problem": "Beginners want to start with Bitcoin but don't know how dollar-cost averaging plays out or when to buy.",
    "role": "Solo: product, design and development.",
@@ -340,8 +341,8 @@
    "role": "Solo: product definition, design and development.",
    "approach": "",
    "results": "",
-   "link": "",
-   "linkLabel": "",
+   "link": "https://claude.ai/artifact/N4Q1DjUVV3nsjrZjSWwuF1",
+   "linkLabel": "Try the demo",
    "zh": {
     "title": "勇敢學吧",
     "subtitle": "國中會考練習",
@@ -354,7 +355,8 @@
      "全校前三名可免費使用完整版"
     ],
     "problem": "學生練了很多考古題，卻很少得到錯在哪裡的解說。",
-    "role": "一人完成：產品定義、設計與開發。"
+    "role": "一人完成：產品定義、設計與開發。",
+    "linkLabel": "試玩網頁版"
    }
   },
   {
@@ -383,8 +385,8 @@
    "role": "Solo: story, puzzle design, development and release.",
    "approach": "",
    "results": "",
-   "link": "",
-   "linkLabel": "",
+   "link": "https://claude.ai/artifact/Y3ptAVNGnWXHxEJPHoHK94",
+   "linkLabel": "Play in browser",
    "zh": {
     "title": "謎匣 Mixia",
     "subtitle": "劇情解謎遊戲",
@@ -397,7 +399,8 @@
      "完全離線：不用帳號、沒有廣告和追蹤"
     ],
     "problem": "給青少年的解謎遊戲，很少有值得跟著走下去的故事。",
-    "role": "一人完成：劇本、謎題設計、開發與上架。"
+    "role": "一人完成：劇本、謎題設計、開發與上架。",
+    "linkLabel": "線上試玩"
    }
   }
  ],
@@ -406,104 +409,148 @@
    {
     "id": "mixia-trailer",
     "type": "video",
-    "title": "預告片 Trailer · 1996",
+    "title": "Trailer · The 1996 Signal",
     "date": "",
-    "file": "media/mixia-trailer.mp4"
+    "file": "media/mixia-trailer.mp4",
+    "title_zh": "預告片・1996 的訊號",
+    "poster": "media/mixia-trailer-poster.webp"
    },
    {
     "id": "mixia-01",
     "type": "image",
-    "title": "App 畫面 Screenshot 1",
+    "title": "Screenshot 1",
     "date": "",
-    "file": "media/mixia-01.webp"
+    "file": "media/mixia-01.webp",
+    "title_zh": "App 畫面 1"
    },
    {
     "id": "mixia-02",
     "type": "image",
-    "title": "App 畫面 Screenshot 2",
+    "title": "Screenshot 2",
     "date": "",
-    "file": "media/mixia-02.webp"
+    "file": "media/mixia-02.webp",
+    "title_zh": "App 畫面 2"
    },
    {
     "id": "mixia-03",
     "type": "image",
-    "title": "App 畫面 Screenshot 3",
+    "title": "Screenshot 3",
     "date": "",
-    "file": "media/mixia-03.webp"
+    "file": "media/mixia-03.webp",
+    "title_zh": "App 畫面 3"
    },
    {
     "id": "mixia-04",
     "type": "image",
-    "title": "App 畫面 Screenshot 4",
+    "title": "Screenshot 4",
     "date": "",
-    "file": "media/mixia-04.webp"
+    "file": "media/mixia-04.webp",
+    "title_zh": "App 畫面 4"
    },
    {
     "id": "mixia-05",
     "type": "image",
-    "title": "App 畫面 Screenshot 5",
+    "title": "Screenshot 5",
     "date": "",
-    "file": "media/mixia-05.webp"
+    "file": "media/mixia-05.webp",
+    "title_zh": "App 畫面 5"
    },
    {
     "id": "mixia-06",
     "type": "image",
-    "title": "App 畫面 Screenshot 6",
+    "title": "Screenshot 6",
     "date": "",
-    "file": "media/mixia-06.webp"
+    "file": "media/mixia-06.webp",
+    "title_zh": "App 畫面 6"
    }
   ],
   "cap": [
    {
+    "id": "brave-demo",
+    "type": "video",
+    "title": "Walkthrough · hero hall and a practice round",
+    "title_zh": "實機操作・勇者大廳與一輪練習",
+    "date": "",
+    "file": "media/brave-demo.mp4",
+    "poster": "media/brave-demo-poster.webp"
+   },
+   {
     "id": "cap-01",
     "type": "image",
-    "title": "App 畫面 Screenshot 1",
+    "title": "Screenshot 1",
     "date": "",
-    "file": "media/cap-01.webp"
+    "file": "media/cap-01.webp",
+    "title_zh": "App 畫面 1"
    },
    {
     "id": "cap-02",
     "type": "image",
-    "title": "App 畫面 Screenshot 2",
+    "title": "Screenshot 2",
     "date": "",
-    "file": "media/cap-02.webp"
+    "file": "media/cap-02.webp",
+    "title_zh": "App 畫面 2"
    },
    {
     "id": "cap-03",
     "type": "image",
-    "title": "App 畫面 Screenshot 3",
+    "title": "Screenshot 3",
     "date": "",
-    "file": "media/cap-03.webp"
+    "file": "media/cap-03.webp",
+    "title_zh": "App 畫面 3"
    },
    {
     "id": "cap-05",
     "type": "image",
-    "title": "App 畫面 Screenshot 4",
+    "title": "Screenshot 4",
     "date": "",
-    "file": "media/cap-05.webp"
+    "file": "media/cap-05.webp",
+    "title_zh": "App 畫面 4"
    },
    {
     "id": "cap-06",
     "type": "image",
-    "title": "App 畫面 Screenshot 5",
+    "title": "Screenshot 5",
     "date": "",
-    "file": "media/cap-06.webp"
+    "file": "media/cap-06.webp",
+    "title_zh": "App 畫面 5"
    }
   ],
   "subverse": [
    {
+    "id": "subverse-demo",
+    "type": "video",
+    "title": "Walkthrough · trip prep to a 3D route dive",
+    "title_zh": "實機操作・從行前準備到 3D 路線練習",
+    "date": "",
+    "file": "media/subverse-demo.mp4",
+    "poster": "media/subverse-demo-poster.webp"
+   },
+   {
     "id": "subverse-feat",
     "type": "image",
-    "title": "宣傳圖 Feature graphic",
+    "title": "Feature graphic",
     "date": "",
-    "file": "media/subverse-feature.webp"
+    "file": "media/subverse-feature.webp",
+    "title_zh": "宣傳圖"
    },
    {
     "id": "subverse-scene",
     "type": "image",
-    "title": "3D 水下場景 Underwater scene",
+    "title": "3D underwater scene",
     "date": "",
-    "file": "media/subverse-scene.webp"
+    "file": "media/subverse-scene.webp",
+    "title_zh": "3D 水下場景"
+   }
+  ],
+  "smartsats": [
+   {
+    "id": "smartsats-demo",
+    "type": "video",
+    "title": "Walkthrough · town map and DCA back-test",
+    "title_zh": "實機操作・小鎮地圖與定期定額回測",
+    "date": "",
+    "file": "media/smartsats-demo.mp4",
+    "poster": "media/smartsats-demo-poster.webp"
    }
   ]
  },
