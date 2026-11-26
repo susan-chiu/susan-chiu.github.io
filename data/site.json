@@ -257,8 +257,8 @@
    "role": "Solo: product, design and development.",
    "approach": "",
    "results": "",
-   "link": "",
-   "linkLabel": "",
+   "link": "https://susan-chiu.github.io/Smart_mouse/",
+   "linkLabel": "Open the web app",
    "zh": {
     "title": "聰明鼠 Smart Sats",
     "subtitle": "比特幣新手入門",
@@ -270,7 +270,8 @@
      "糧倉買入紀錄、冬天模式、存糧日提醒"
     ],
     "problem": "新手想開始買比特幣，卻不知道定期定額的實際效果，也不知道何時該買。",
-    "role": "一人完成：產品、設計與開發。"
+    "role": "一人完成：產品、設計與開發。",
+    "linkLabel": "開啟網頁版"
    }
   },
   {
@@ -299,8 +300,8 @@
    "role": "Solo: product, full-stack development and deployment.",
    "approach": "",
    "results": "",
-   "link": "",
-   "linkLabel": "",
+   "link": "https://jiyu-app.vercel.app",
+   "linkLabel": "Open the app",
    "zh": {
     "title": "技遇 JiYu SkillMeet",
     "subtitle": "台灣技能交換平台",
@@ -312,7 +313,8 @@
      "所有測試情境通過後上線"
     ],
     "problem": "付費課程很貴，但很多人都有願意拿來交換的專長。",
-    "role": "一人完成：產品、全端開發與部署。"
+    "role": "一人完成：產品、全端開發與部署。",
+    "linkLabel": "開啟 App"
    }
   },
   {
@@ -364,8 +366,8 @@
    "section": "personal",
    "title": "Mixia",
    "subtitle": "Story puzzle game",
-   "status": "Launching",
-   "tone": "build",
+   "status": "On the App Store",
+   "tone": "live",
    "desc": "Ten drawers, ten stories. A story-driven puzzle game for teens that runs from quiet mystery to real horror, where some choices end the story for good.",
    "features": [
     "Ten stories, from mystery to horror",
@@ -385,12 +387,12 @@
    "role": "Solo: story, puzzle design, development and release.",
    "approach": "",
    "results": "",
-   "link": "https://claude.ai/artifact/Y3ptAVNGnWXHxEJPHoHK94",
-   "linkLabel": "Play in browser",
+   "link": "https://apps.apple.com/tw/app/id6832249694",
+   "linkLabel": "Download on the App Store",
    "zh": {
     "title": "謎匣 Mixia",
     "subtitle": "劇情解謎遊戲",
-    "status": "上架中",
+    "status": "App Store 已上架",
     "desc": "十個抽屜，十個故事。給青少年的劇情解謎遊戲，從懸疑一路走到恐怖，有些選擇會讓故事就此結束。",
     "features": [
      "十個故事，從懸疑到恐怖",
@@ -400,7 +402,7 @@
     ],
     "problem": "給青少年的解謎遊戲，很少有值得跟著走下去的故事。",
     "role": "一人完成：劇本、謎題設計、開發與上架。",
-    "linkLabel": "線上試玩"
+    "linkLabel": "App Store 下載"
    }
   }
  ],
