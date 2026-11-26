@@ -279,6 +279,12 @@ footer .wrap{align-items:center}
 .me{display:flex;align-items:center;gap:12px}
 .me img{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid var(--brass);box-shadow:0 0 0 4px rgba(201,162,74,.14);transition:transform .3s}
 .me:hover img{transform:scale(1.12) rotate(-6deg)}
+.strengths{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px;margin-bottom:40px}
+.st{background:linear-gradient(180deg,rgba(18,51,73,.55),rgba(11,34,51,.55));border:1px solid var(--current);border-radius:12px;padding:18px 20px;transition:border-color .25s}
+.st:hover{border-color:var(--brass-dim)}
+.st h3{margin:0 0 6px;font-size:1.06rem;font-weight:700;line-height:1.35;color:var(--foam)}
+.st p{margin:0;color:var(--silt);font-size:.94rem}
+.sk-lbl{margin:0 0 16px;font-family:var(--f-mono);font-size:.74rem;color:var(--silt);letter-spacing:.12em;text-transform:uppercase}
 @keyframes shadow{0%,100%{transform:scaleX(1);opacity:1}50%{transform:scaleX(.88);opacity:.7}}
 .porthole .bub{z-index:2;position:absolute;bottom:14%;border:1.5px solid rgba(180,220,240,.55);border-radius:50%;opacity:0;animation:rise 7s ease-in infinite;pointer-events:none}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
@@ -496,9 +502,18 @@ footer .wrap{align-items:center}
     <section id="skills">
       <div class="depth">
         <span class="m">−60 m</span>
-        <h2>What I Do</h2>
+        <h2>What I'm Good At</h2>
         <p>I work between the production floor and IT and make sure each side understands the other.</p>
       </div>
+      <div class="strengths">
+        <div class="st"><h3>Translating between the floor and IT</h3><p>I interview operators and engineers, then turn what they need into specs IT can build.</p></div>
+        <div class="st"><h3>Getting projects over the line</h3><p>PMP-certified. I take systems from proposal through pilot to plant-wide rollout.</p></div>
+        <div class="st"><h3>Quality and process control</h3><p>First-article inspection, audits and error-proofing rules built into MES, SPC and OIS.</p></div>
+        <div class="st"><h3>Turning manual work into automation</h3><p>I spot repetitive hand-offs and replace them with connected system flows.</p></div>
+        <div class="st"><h3>Making the case to leadership</h3><p>Proposals and progress reports that help managers make decisions.</p></div>
+        <div class="st"><h3>Shipping apps on my own</h3><p>Product, design, code, CI and store release, done for five personal products.</p></div>
+      </div>
+      <p class="sk-lbl">Tools &amp; systems</p>
       <div class="skills">
         <div><h3>Product &amp; PM</h3><ul><li>Requirements interviews to IT specs</li><li>Proposals and executive reporting</li><li>MVP pilots and rollouts</li></ul></div>
         <div><h3>Manufacturing &amp; Quality</h3><ul><li>MES · SAP · SPC · OIS · EIP</li><li>First-article inspection and process audits</li><li>NPI workflow improvement</li></ul></div>
@@ -828,7 +843,13 @@ footer .wrap{align-items:center}
     'Captain, IT Officer':'上尉資訊官','Army Artillery School, Taiwan':'陸軍砲兵學校','Product Engineer':'產品工程師','ASE Group':'日月光集團',
     'Education':'學歷','National Kaohsiung University of Applied Sciences':'國立高雄應用科技大學','Electronic Engineering':'電子工程系',
     'Certifications':'證照','Project Management Professional (PMP)':'PMP 國際專案管理師','Project Management Institute':'美國專案管理學會 PMI','Open Water Scuba Diver':'開放水域潛水員',
-    'What I Do':'我擅長的事','I work between the production floor and IT and make sure each side understands the other.':'我站在生產現場與 IT 之間，讓雙方彼此理解。',
+    'What I\'m Good At':'我擅長的事','Tools & systems':'工具與系統',
+    'Translating between the floor and IT':'現場與 IT 之間的翻譯','I interview operators and engineers, then turn what they need into specs IT can build.':'訪談現場人員與工程師，把需求轉成 IT 做得出來的規格。',
+    'Getting projects over the line':'把專案推到上線','PMP-certified. I take systems from proposal through pilot to plant-wide rollout.':'PMP 認證，從提案、試行一路推到全廠導入。',
+    'Quality and process control':'品質與製程管控','First-article inspection, audits and error-proofing rules built into MES, SPC and OIS.':'首件檢驗、稽核與防錯規則，落實到 MES、SPC、OIS 系統裡。',
+    'Turning manual work into automation':'把人工作業變成自動化','I spot repetitive hand-offs and replace them with connected system flows.':'找出重複的人工交接，改成系統自動串接。',
+    'Making the case to leadership':'向高層把事情說清楚','Proposals and progress reports that help managers make decisions.':'寫出能讓主管做決定的提案與進度報告。',
+    'Shipping apps on my own':'一個人把 App 做到上架','Product, design, code, CI and store release, done for five personal products.':'產品、設計、開發、CI 到商店上架一手包辦，已完成五個個人作品。','I work between the production floor and IT and make sure each side understands the other.':'我站在生產現場與 IT 之間，讓雙方彼此理解。',
     'Product & PM':'產品與專案管理','Requirements interviews to IT specs':'從需求訪談到 IT 規格書','Proposals and executive reporting':'提案簡報與高階主管報告','MVP pilots and rollouts':'MVP 試行與導入上線',
     'Manufacturing & Quality':'製造與品質','First-article inspection and process audits':'首件檢驗與製程稽核','NPI workflow improvement':'NPI 製前流程改善',
     'Building':'開發','Workflow automation':'流程自動化','Shipping to Google Play and the App Store':'上架 Google Play 與 App Store',
@@ -1250,6 +1271,5 @@ footer .wrap{align-items:center}
   }
 })();
 </script>
-
 </body>
 </html>
