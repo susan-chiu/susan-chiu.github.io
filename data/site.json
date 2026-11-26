@@ -209,7 +209,7 @@
     "Codemagic CI"
    ],
    "cover": {
-    "art": "subverse"
+    "file": "media/subverse-scene.webp"
    },
    "problem": "Divers in Taiwan check sea conditions, logs and certifications across scattered apps and websites.",
    "role": "Solo: product, design, development and app-store release.",
@@ -250,7 +250,7 @@
     "Fintech education"
    ],
    "cover": {
-    "art": "smartsats"
+    "file": "media/smartsats-cover.webp"
    },
    "problem": "Beginners want to start with Bitcoin but don't know how dollar-cost averaging plays out or when to buy.",
    "role": "Solo: product, design and development.",
@@ -292,7 +292,7 @@
     "Web Push"
    ],
    "cover": {
-    "art": "jiyu"
+    "file": "media/jiyu-cover.webp"
    },
    "problem": "Paid courses are expensive, while many people have a skill they would happily teach in exchange.",
    "role": "Solo: product, full-stack development and deployment.",
@@ -334,7 +334,7 @@
     "Subscriptions"
    ],
    "cover": {
-    "art": "cap"
+    "file": "media/cap-cover.webp"
    },
    "problem": "Students practice past exam questions but get little explanation of what they got wrong.",
    "role": "Solo: product definition, design and development.",
@@ -377,7 +377,7 @@
     "iOS + Android"
    ],
    "cover": {
-    "art": "mixia"
+    "file": "media/mixia-cover.webp"
    },
    "problem": "Puzzle games for teens rarely give the puzzles a story worth following.",
    "role": "Solo: story, puzzle design, development and release.",
@@ -401,7 +401,112 @@
    }
   }
  ],
- "items": {},
+ "items": {
+  "mixia": [
+   {
+    "id": "mixia-trailer",
+    "type": "video",
+    "title": "預告片 Trailer · 1996",
+    "date": "",
+    "file": "media/mixia-trailer.mp4"
+   },
+   {
+    "id": "mixia-01",
+    "type": "image",
+    "title": "App 畫面 Screenshot 1",
+    "date": "",
+    "file": "media/mixia-01.webp"
+   },
+   {
+    "id": "mixia-02",
+    "type": "image",
+    "title": "App 畫面 Screenshot 2",
+    "date": "",
+    "file": "media/mixia-02.webp"
+   },
+   {
+    "id": "mixia-03",
+    "type": "image",
+    "title": "App 畫面 Screenshot 3",
+    "date": "",
+    "file": "media/mixia-03.webp"
+   },
+   {
+    "id": "mixia-04",
+    "type": "image",
+    "title": "App 畫面 Screenshot 4",
+    "date": "",
+    "file": "media/mixia-04.webp"
+   },
+   {
+    "id": "mixia-05",
+    "type": "image",
+    "title": "App 畫面 Screenshot 5",
+    "date": "",
+    "file": "media/mixia-05.webp"
+   },
+   {
+    "id": "mixia-06",
+    "type": "image",
+    "title": "App 畫面 Screenshot 6",
+    "date": "",
+    "file": "media/mixia-06.webp"
+   }
+  ],
+  "cap": [
+   {
+    "id": "cap-01",
+    "type": "image",
+    "title": "App 畫面 Screenshot 1",
+    "date": "",
+    "file": "media/cap-01.webp"
+   },
+   {
+    "id": "cap-02",
+    "type": "image",
+    "title": "App 畫面 Screenshot 2",
+    "date": "",
+    "file": "media/cap-02.webp"
+   },
+   {
+    "id": "cap-03",
+    "type": "image",
+    "title": "App 畫面 Screenshot 3",
+    "date": "",
+    "file": "media/cap-03.webp"
+   },
+   {
+    "id": "cap-05",
+    "type": "image",
+    "title": "App 畫面 Screenshot 4",
+    "date": "",
+    "file": "media/cap-05.webp"
+   },
+   {
+    "id": "cap-06",
+    "type": "image",
+    "title": "App 畫面 Screenshot 5",
+    "date": "",
+    "file": "media/cap-06.webp"
+   }
+  ],
+  "subverse": [
+   {
+    "id": "subverse-feat",
+    "type": "image",
+    "title": "宣傳圖 Feature graphic",
+    "date": "",
+    "file": "media/subverse-feature.webp"
+   },
+   {
+    "id": "subverse-scene",
+    "type": "image",
+    "title": "3D 水下場景 Underwater scene",
+    "date": "",
+    "file": "media/subverse-scene.webp"
+   }
+  ]
+ },
  "profile": {
   "intro": "I'm a smart-manufacturing project manager in Kaohsiung, building inspection, audit and automation systems with production and IT teams at a flexible-PCB maker. Outside work, I design and ship my own apps for divers, new investors, students and puzzle fans.",
   "email": "yskyskygirl19830613@gmail.com",
