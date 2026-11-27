@@ -291,7 +291,7 @@ footer .wrap{align-items:center}
 @keyframes rise{0%{transform:translateY(0);opacity:0}12%{opacity:.9}100%{transform:translateY(-260px);opacity:0}}
 @media (max-width:720px){
   /* phone: the figure stands at the right, the name and intro wrap beside it */
-  .hero{display:block;padding-top:clamp(28px,8vw,48px)}
+  .hero{display:block;padding-top:clamp(28px,8vw,48px);overflow-x:clip}
   .porthole{position:absolute;right:-6px;top:clamp(20px,6vw,40px);width:min(38vw,168px);margin:0;z-index:0}
   .porthole::before{left:-40%;right:-40%}
   .hero-txt{position:relative;z-index:1}
@@ -301,6 +301,8 @@ footer .wrap{align-items:center}
   .hero .intro{font-size:.98rem;line-height:1.7}
   .hero-acts,.facts{position:relative;z-index:1}
 }
+.life{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--current);box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.life img{display:block;width:100%;height:auto}
 </style>
 
 <header class="bar">
@@ -527,6 +529,17 @@ footer .wrap{align-items:center}
         <div><h3>Manufacturing &amp; Quality</h3><ul><li>MES · SAP · SPC · OIS · EIP</li><li>First-article inspection and process audits</li><li>NPI workflow improvement</li></ul></div>
         <div><h3>Building</h3><ul><li>Workflow automation</li><li>PWA · Supabase · Capacitor</li><li>Shipping to Google Play and the App Store</li></ul></div>
       </div>
+    </section>
+
+    <section id="life">
+      <div class="depth">
+        <span class="m">−80 m</span>
+        <h2>Off the Clock</h2>
+        <p>Mountains, travel and scuba diving.</p>
+      </div>
+      <figure class="life">
+        <img src="img/life.webp" srcset="img/life-sm.webp 836w, img/life.webp 1672w" sizes="(max-width:1080px) 100vw, 1000px" width="1672" height="941" loading="lazy" alt="Photo collage of Susan Chiu hiking in the mountains, travelling and scuba diving over a coral reef">
+      </figure>
     </section>
 
     <section id="contact">
@@ -861,6 +874,7 @@ footer .wrap{align-items:center}
     'Product & PM':'產品與專案管理','Requirements interviews to IT specs':'從需求訪談到 IT 規格書','Proposals and executive reporting':'提案簡報與高階主管報告','MVP pilots and rollouts':'MVP 試行與導入上線',
     'Manufacturing & Quality':'製造與品質','First-article inspection and process audits':'首件檢驗與製程稽核','NPI workflow improvement':'NPI 製前流程改善',
     'Building':'開發','Workflow automation':'流程自動化','Shipping to Google Play and the App Store':'上架 Google Play 與 App Store',
+    'Off the Clock':'工作之外','Mountains, travel and scuba diving.':'登山、旅行和潛水。',
     'Open to conversations about smart manufacturing, product work and side-project collaborations.':'歡迎交流智慧製造、產品開發與 side project 合作。',
     '22.6°N 120.3°E · Kaohsiung':'22.6°N 120.3°E · 高雄'
   };
