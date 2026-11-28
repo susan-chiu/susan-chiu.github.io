@@ -231,7 +231,8 @@
     "problem": "台灣潛水員要查海況、記日誌、帶證照，資訊散在各個 App 和網站。",
     "role": "一人完成：產品、設計、開發與上架。",
     "linkLabel": "開啟網頁版"
-   }
+   },
+   "icon": "media/icons/subverse.webp"
   },
   {
    "id": "smartsats",
@@ -272,7 +273,8 @@
     "problem": "新手想開始買比特幣，卻不知道定期定額的實際效果，也不知道何時該買。",
     "role": "一人完成：產品、設計與開發。",
     "linkLabel": "開啟網頁版"
-   }
+   },
+   "icon": "media/icons/smartsats.webp"
   },
   {
    "id": "jiyu",
@@ -315,7 +317,8 @@
     "problem": "付費課程很貴，但很多人都有願意拿來交換的專長。",
     "role": "一人完成：產品、全端開發與部署。",
     "linkLabel": "開啟 App"
-   }
+   },
+   "icon": "media/icons/jiyu.webp"
   },
   {
    "id": "cap",
@@ -359,7 +362,8 @@
     "problem": "學生練了很多考古題，卻很少得到錯在哪裡的解說。",
     "role": "一人完成：產品定義、設計與開發。",
     "linkLabel": "試玩網頁版"
-   }
+   },
+   "icon": "media/icons/cap.webp"
   },
   {
    "id": "mixia",
@@ -403,7 +407,8 @@
     "problem": "給青少年的解謎遊戲，很少有值得跟著走下去的故事。",
     "role": "一人完成：劇本、謎題設計、開發與上架。",
     "linkLabel": "App Store 下載"
-   }
+   },
+   "icon": "media/icons/mixia.webp"
   }
  ],
  "items": {
