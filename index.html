@@ -294,6 +294,9 @@ footer .wrap{align-items:center}
 .store-badge b{display:block;font-size:1.04rem;font-weight:600;letter-spacing:-.01em}
 .store-badge:hover,.store-badge:focus-visible{border-color:var(--brass);outline:none}
 .st-ic{display:block;width:34px;height:34px;color:var(--brass);margin-bottom:10px}
+#skills .depth{grid-template-columns:auto minmax(0,1fr) auto}
+.sk-fig{grid-column:3;grid-row:1/span 2;align-self:end;height:clamp(130px,15vw,180px);width:auto;margin:0 0 -18px;pointer-events:none;filter:drop-shadow(0 0 14px rgba(64,150,220,.3))}
+@media (max-width:600px){#skills .depth{column-gap:12px}.sk-fig{height:112px}}
 @keyframes shadow{0%,100%{transform:scaleX(1);opacity:1}50%{transform:scaleX(.88);opacity:.7}}
 .porthole .bub{z-index:2;position:absolute;bottom:14%;border:1.5px solid rgba(180,220,240,.55);border-radius:50%;opacity:0;animation:rise 7s ease-in infinite;pointer-events:none}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
@@ -564,6 +567,7 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;ba
       <div class="depth">
         <span class="m">−60 m</span>
         <h2>What I'm Good At</h2>
+        <img class="sk-fig" src="img/avatar-toon.webp" width="363" height="440" alt="" loading="lazy">
         <p>I work between the production floor and IT and make sure each side understands the other.</p>
       </div>
       <div class="strengths">
